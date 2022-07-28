@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="style.css"></link>
+	<script src="https://kit.fontawesome.com/f863091e0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="header">
+		<ul class="top">
+			<li id="fac"><a href="index.html"><img src="facebook.jpg" alt="facebook"></a></li>
+			<li id="web"><h3>MY WEBSITE</h3></li>
+			<li id="search">
+				<p>Thursday, 28 July 2022</p>
+				<form><input type="search" name="" placeholder="Search here..."></form>
+			</li>
+		</ul>
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="form.html">Form</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="newsPortal.html">News Portal</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<div class="login-form">
+		<div class="text">Registration Form</div>
+		
+		<div class="instruction"><br>
+			<p>Please enter your information.</p>
+		</div>
+		
+		<form method="post">
+			<div class="field">
+				<div class="fas fa-user"></div>
+				<input type="text" placeholder="First name" required>
+			</div>
+			<div class="field">
+				<div class="fas fa-user"></div>
+				<input type="text" placeholder="Last name" required>
+			</div>
+			<div class="field">
+				<div class="fas fa-envelope"></div>
+				<input type="email" placeholder="Email" required>
+			</div>
+
+			<div class="field">
+				<div class="fas fa-lock"></div>
+				<input type="password" placeholder="Passsword" required>
+			</div>
+			<div class="gen">
+				<label for="gender">Gender</label><br>
+				<div class="gender">
+					<label for="male">Male</label>
+					<input type="radio" name="male" id="">
+				</div>
+				<div class="gender">
+					<label for="female">Female</label>
+					<input type="radio" name="female" >
+				</div>
+			</div>
+					
+			<div class="division">
+				<label for="division">Division</label><br>
+				<select name="division" id="">
+					<option value="Dhaka">Dhaka</option>
+					<option value="Barishal">Barishal</option>
+					<option value="Rajshahi">Rajshahi</option>
+					<option value="Chittagong">Chittagong</option>
+					<option value="Khulna">Khulna</option>
+					<option value="Mymensingh">Mymensingh	</option>
+					<option value="Rangpur">Rangpur</option>
+					<option value="Sylhet">Sylhet</option>
+				</select>
+			</div>
+
+			<button>SUBMIT</button>
+
+			<div class="link">
+				Have an account?
+				<a href="form.html">Login now</a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
